@@ -1,0 +1,75 @@
+var readlineSync = require('readline-sync');
+var score=0;
+console.log("This is a quiz DO YOU KNOW ME?");
+var name=readlineSync.question("what is my name ");
+if(name=="amanjot"){
+  console.log("wright answer");
+  score=score+1;
+}
+else{
+  console.log("wrong answer");
+   score=score-1;
+}
+var age=readlineSync.question("what is my age? ");
+if(age=="20"){
+  console.log("that's a wright answer");
+  score=score+1;
+  
+}
+else{
+  console.log("oops you are wrong");
+  score=score-1;
+}
+var movie=readlineSync.question("which is my favourite movie? ");
+if(movie=="sufna"){
+  console.log("hummmnn wright answer");
+  score=score+1;
+  
+}
+else{
+  console.log("oops you are wrong");
+  score=score-1;
+}
+var song=readlineSync.question("which song I like the most? ");
+if(song=="jazbaat"){
+  console.log("that's a wright one");
+  score=score+1;
+  
+}
+else{
+  console.log("oops you are wrong");
+  score=score-1;
+}
+var food=readlineSync.question("which type of food I like the most ? ");
+if(food=="chinese"){
+  console.log("that's a wright answer");
+  score=score+1;
+  
+}
+else{
+  console.log("oops you are wrong");
+  score=score-1;
+}
+var program=readlineSync.question("which programming language I like the most ? ");
+if(program=="c"){
+  console.log("that's a wright answer");
+  score=score+1;
+  
+}
+else{
+  console.log("oops you are wrong");
+  score=score-1;
+}
+var institute=readlineSync.question("IN which institute i study ? ");
+if(institute=="mmdu"){
+  console.log("that's a wright answer");
+  score=score+1;
+  
+}
+else{
+  console.log("oops you are wrong");
+  score=score-1;
+}
+
+console.log("your total score is " +score);
+
